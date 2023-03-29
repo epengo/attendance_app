@@ -8,7 +8,7 @@
 
 3. cd attendance_app
 
-4. Indítás (a terminálban látni fogjuk az apache szerver logjait)
+4. Buildelés és indítás (a terminálban látni fogjuk az apache szerver logjait).
 ```
 docker build . -t app && docker run -p 8000:80 app
 ```
