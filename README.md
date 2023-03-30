@@ -29,6 +29,8 @@ git clone https://github.com/epengo/attendance_app.git
 ```
 4. A forrás mappájának elhelyezése a XAMPP `htdocs` mappájában vagy a WAMP `www` mappájában.
 
+5. Megfelelő jogosultság beállítása a db mappára és tartalmára, hogy a webszerveren keresztül írni is lehessen.
+
 6. Megnyitás böngészőben: [http://localhost/attendance_app](http://localhost/attendance_app)
 
 
