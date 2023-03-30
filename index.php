@@ -17,9 +17,7 @@ if(isset($result['sy_id'])){
     $_SESSION['sy'] = "";
 }
 ?>
-<?php  
-$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://' : 'http://') . $_SERVER['SERVER_NAME'] . '/intrams_sams/'; 
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,15 +25,15 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo ucwords(str_replace('_','',$page)) ?> | Student Attendance Management System - Intramurals</title>
-    <link rel="stylesheet" href="<?= $base_url ?>Font-Awesome-master/css/all.min.css">
-    <link rel="stylesheet" href="<?= $base_url ?>css/bootstrap.min.css">
-    <script src="<?= $base_url ?>js/jquery-3.6.0.min.js"></script>
-    <script src="<?= $base_url ?>js/popper.min.js"></script>
-    <script src="<?= $base_url ?>js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="<?= $base_url ?>DataTables/datatables.min.css">
-    <script src="<?= $base_url ?>DataTables/datatables.min.js"></script>
-    <script src="<?= $base_url ?>Font-Awesome-master/js/all.min.js"></script>
-    <script src="<?= $base_url ?>js/script.js"></script>
+    <link rel="stylesheet" href="./Font-Awesome-master/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./DataTables/datatables.min.css">
+    <script src="./DataTables/datatables.min.js"></script>
+    <script src="./Font-Awesome-master/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
     <style>
         html,body{
             height:100%;
